@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 ChannelManagerApi.md
 README.md
 apis/ChannelManagerApi.ts
