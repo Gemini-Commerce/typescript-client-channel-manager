@@ -134,7 +134,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[standardAuthorization](README.md#standardAuthorization)
+[Authorization](README.md#Authorization)
 
 ### HTTP request headers
 
