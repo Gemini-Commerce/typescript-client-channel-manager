@@ -14,10 +14,10 @@ import { ChannelmanagerCountryCode } from '../models/ChannelmanagerCountryCode';
 import { HttpFile } from '../http/http';
 
 export class ChannelmanagerCreateMarketRequest {
-    'tenantId'?: string;
-    'name'?: string;
+    'tenantId': string;
+    'name': string;
     'description'?: string;
-    'countries'?: Array<ChannelmanagerCountryCode>;
+    'countries': Array<ChannelmanagerCountryCode>;
 
     static readonly discriminator: string | undefined = undefined;
 

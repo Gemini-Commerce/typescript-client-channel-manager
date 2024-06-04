@@ -14,7 +14,6 @@ import { HttpFile } from '../http/http';
 
 export class ProtobufAny {
     'type'?: string;
-    'value'?: string;
 
     static readonly discriminator: string | undefined = undefined;
 
@@ -24,12 +23,6 @@ export class ProtobufAny {
             "baseName": "@type",
             "type": "string",
             "format": ""
-        },
-        {
-            "name": "value",
-            "baseName": "value",
-            "type": "string",
-            "format": "byte"
         }    ];
 
     static getAttributeTypeMap() {

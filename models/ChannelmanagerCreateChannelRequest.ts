@@ -17,10 +17,10 @@ import { ChannelmanagerLanguageCode } from '../models/ChannelmanagerLanguageCode
 import { HttpFile } from '../http/http';
 
 export class ChannelmanagerCreateChannelRequest {
-    'tenantId'?: string;
-    'code'?: string;
+    'tenantId': string;
+    'code': string;
     'image'?: string;
-    'name'?: string;
+    'name': string;
     'defaultLanguage'?: ChannelmanagerLanguageCode;
     'settings'?: ChannelmanagerChannelSettings;
     'website'?: ChannelmanagerChannelTypeWebsite;

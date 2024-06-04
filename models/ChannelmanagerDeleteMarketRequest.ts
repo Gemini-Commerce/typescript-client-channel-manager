@@ -13,8 +13,8 @@
 import { HttpFile } from '../http/http';
 
 export class ChannelmanagerDeleteMarketRequest {
-    'tenantId'?: string;
-    'id'?: string;
+    'tenantId': string;
+    'id': string;
 
     static readonly discriminator: string | undefined = undefined;
 

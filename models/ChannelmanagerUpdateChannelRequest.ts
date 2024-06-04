@@ -14,10 +14,10 @@ import { ChannelmanagerUpdateChannelRequestPayload } from '../models/Channelmana
 import { HttpFile } from '../http/http';
 
 export class ChannelmanagerUpdateChannelRequest {
-    'tenantId'?: string;
-    'id'?: string;
+    'tenantId': string;
+    'id': string;
     'payload'?: ChannelmanagerUpdateChannelRequestPayload;
-    'payloadMask'?: Array<string>;
+    'payloadMask'?: string;
 
     static readonly discriminator: string | undefined = undefined;
 
@@ -43,7 +43,7 @@ export class ChannelmanagerUpdateChannelRequest {
         {
             "name": "payloadMask",
             "baseName": "payloadMask",
-            "type": "Array<string>",
+            "type": "string",
             "format": ""
         }    ];
 
