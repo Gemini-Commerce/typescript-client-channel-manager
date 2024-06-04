@@ -570,19 +570,19 @@ export interface ChannelmanagerCreateAssociationRequest {
      * @type {string}
      * @memberof ChannelmanagerCreateAssociationRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerCreateAssociationRequest
      */
-    'channelGrn'?: string;
+    'channelGrn': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerCreateAssociationRequest
      */
-    'marketGrn'?: string;
+    'marketGrn': string;
 }
 /**
  * 
@@ -595,13 +595,13 @@ export interface ChannelmanagerCreateChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerCreateChannelRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerCreateChannelRequest
      */
-    'code'?: string;
+    'code': string;
     /**
      * 
      * @type {string}
@@ -613,7 +613,7 @@ export interface ChannelmanagerCreateChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerCreateChannelRequest
      */
-    'name'?: string;
+    'name': string;
     /**
      * 
      * @type {ChannelmanagerLanguageCode}
@@ -652,13 +652,13 @@ export interface ChannelmanagerCreateMarketRequest {
      * @type {string}
      * @memberof ChannelmanagerCreateMarketRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerCreateMarketRequest
      */
-    'name'?: string;
+    'name': string;
     /**
      * 
      * @type {string}
@@ -670,7 +670,7 @@ export interface ChannelmanagerCreateMarketRequest {
      * @type {Array<ChannelmanagerCountryCode>}
      * @memberof ChannelmanagerCreateMarketRequest
      */
-    'countries'?: Array<ChannelmanagerCountryCode>;
+    'countries': Array<ChannelmanagerCountryCode>;
 }
 /**
  * 
@@ -683,13 +683,13 @@ export interface ChannelmanagerDeleteAssociationRequest {
      * @type {string}
      * @memberof ChannelmanagerDeleteAssociationRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerDeleteAssociationRequest
      */
-    'id'?: string;
+    'id': string;
 }
 /**
  * 
@@ -702,13 +702,13 @@ export interface ChannelmanagerDeleteChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerDeleteChannelRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerDeleteChannelRequest
      */
-    'id'?: string;
+    'id': string;
 }
 /**
  * 
@@ -721,13 +721,13 @@ export interface ChannelmanagerDeleteMarketRequest {
      * @type {string}
      * @memberof ChannelmanagerDeleteMarketRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerDeleteMarketRequest
      */
-    'id'?: string;
+    'id': string;
 }
 /**
  * 
@@ -740,13 +740,13 @@ export interface ChannelmanagerGetChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerGetChannelRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerGetChannelRequest
      */
-    'id'?: string;
+    'id': string;
 }
 /**
  * 
@@ -759,13 +759,13 @@ export interface ChannelmanagerGetChannelWithAssociationsRequest {
      * @type {string}
      * @memberof ChannelmanagerGetChannelWithAssociationsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerGetChannelWithAssociationsRequest
      */
-    'id'?: string;
+    'id': string;
 }
 /**
  * 
@@ -778,13 +778,13 @@ export interface ChannelmanagerGetMarketRequest {
      * @type {string}
      * @memberof ChannelmanagerGetMarketRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerGetMarketRequest
      */
-    'id'?: string;
+    'id': string;
 }
 /**
  * 
@@ -797,13 +797,13 @@ export interface ChannelmanagerGetMarketWithAssociationsRequest {
      * @type {string}
      * @memberof ChannelmanagerGetMarketWithAssociationsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerGetMarketWithAssociationsRequest
      */
-    'id'?: string;
+    'id': string;
 }
 /**
  * 
@@ -1013,7 +1013,7 @@ export interface ChannelmanagerListChannelsRequest {
      * @type {string}
      * @memberof ChannelmanagerListChannelsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * The number of items to return per page. If not specified, it will returns all items.
      * @type {number}
@@ -1057,7 +1057,7 @@ export interface ChannelmanagerListChannelsWithAssociationsRequest {
      * @type {string}
      * @memberof ChannelmanagerListChannelsWithAssociationsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * The number of items to return per page. If not specified, it will returns all items.
      * @type {number}
@@ -1101,7 +1101,7 @@ export interface ChannelmanagerListMarketsRequest {
      * @type {string}
      * @memberof ChannelmanagerListMarketsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * The number of items to return per page. If not specified, it will returns all items.
      * @type {number}
@@ -1145,7 +1145,7 @@ export interface ChannelmanagerListMarketsWithAssociationsRequest {
      * @type {string}
      * @memberof ChannelmanagerListMarketsWithAssociationsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * The number of items to return per page. If not specified, it will returns all items.
      * @type {number}
@@ -1306,13 +1306,13 @@ export interface ChannelmanagerUpdateChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerUpdateChannelRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerUpdateChannelRequest
      */
-    'id'?: string;
+    'id': string;
     /**
      * 
      * @type {ChannelmanagerUpdateChannelRequestPayload}
@@ -1321,10 +1321,10 @@ export interface ChannelmanagerUpdateChannelRequest {
     'payload'?: ChannelmanagerUpdateChannelRequestPayload;
     /**
      * 
-     * @type {Array<string>}
+     * @type {string}
      * @memberof ChannelmanagerUpdateChannelRequest
      */
-    'payloadMask'?: Array<string>;
+    'payloadMask'?: string;
 }
 /**
  * 
@@ -1382,13 +1382,13 @@ export interface ChannelmanagerUpdateMarketRequest {
      * @type {string}
      * @memberof ChannelmanagerUpdateMarketRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerUpdateMarketRequest
      */
-    'id'?: string;
+    'id': string;
     /**
      * 
      * @type {ChannelmanagerUpdateMarketRequestPayload}
@@ -1397,10 +1397,10 @@ export interface ChannelmanagerUpdateMarketRequest {
     'payload'?: ChannelmanagerUpdateMarketRequestPayload;
     /**
      * 
-     * @type {Array<string>}
+     * @type {string}
      * @memberof ChannelmanagerUpdateMarketRequest
      */
-    'payloadMask'?: Array<string>;
+    'payloadMask'?: string;
 }
 /**
  * 
@@ -1433,18 +1433,14 @@ export interface ChannelmanagerUpdateMarketRequestPayload {
  * @interface ProtobufAny
  */
 export interface ProtobufAny {
+    [key: string]: any;
+
     /**
      * 
      * @type {string}
      * @memberof ProtobufAny
      */
     '@type'?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ProtobufAny
-     */
-    'value'?: string;
 }
 /**
  * 
@@ -1501,7 +1497,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1539,7 +1536,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarHeaderParameter = {} as any;
             const localVarQueryParameter = {} as any;
 
-            // authentication standardAuthorization required
+            // authentication Authorization required
             await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
@@ -1579,7 +1576,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1618,7 +1616,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1657,7 +1656,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1696,7 +1696,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1735,7 +1736,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1774,7 +1776,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1813,7 +1816,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1852,7 +1856,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1891,7 +1896,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1930,7 +1936,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -1969,7 +1976,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -2008,7 +2016,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -2047,7 +2056,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
@@ -2086,7 +2096,8 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+            // oauth required
+            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
 
 
     
