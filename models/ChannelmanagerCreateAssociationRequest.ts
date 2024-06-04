@@ -13,9 +13,9 @@
 import { HttpFile } from '../http/http';
 
 export class ChannelmanagerCreateAssociationRequest {
-    'tenantId': string;
-    'channelGrn': string;
-    'marketGrn': string;
+    'tenantId'?: string;
+    'channelGrn'?: string;
+    'marketGrn'?: string;
 
     static readonly discriminator: string | undefined = undefined;
 

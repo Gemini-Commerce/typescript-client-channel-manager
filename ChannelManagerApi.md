@@ -134,7 +134,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Authorization](README.md#Authorization)
+[standardAuthorization](README.md#standardAuthorization)
 
 ### HTTP request headers
 
@@ -887,7 +887,9 @@ let body:.ChannelManagerApiChannelManagerUpdateChannelRequest = {
       },
       status: "CH_STATUS_UNKNOWN",
     },
-    payloadMask: "payloadMask_example",
+    payloadMask: [
+      "payloadMask_example",
+    ],
   },
 };
 
@@ -953,7 +955,9 @@ let body:.ChannelManagerApiChannelManagerUpdateMarketRequest = {
         "COUNTRY_CODE_UNKNOWN",
       ],
     },
-    payloadMask: "payloadMask_example",
+    payloadMask: [
+      "payloadMask_example",
+    ],
   },
 };
 

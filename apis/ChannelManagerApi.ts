@@ -123,7 +123,7 @@ export class ChannelManagerApiRequestFactory extends BaseAPIRequestFactory {
 
         let authMethod: SecurityAuthentication | undefined;
         // Apply auth methods
-        authMethod = _config.authMethods["Authorization"]
+        authMethod = _config.authMethods["standardAuthorization"]
         if (authMethod?.applySecurityAuthentication) {
             await authMethod?.applySecurityAuthentication(requestContext);
         }
