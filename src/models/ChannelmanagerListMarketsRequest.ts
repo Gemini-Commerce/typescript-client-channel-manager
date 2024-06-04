@@ -23,7 +23,7 @@ export interface ChannelmanagerListMarketsRequest {
      * @type {string}
      * @memberof ChannelmanagerListMarketsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * The number of items to return per page. If not specified, it will returns all items.
      * @type {number}

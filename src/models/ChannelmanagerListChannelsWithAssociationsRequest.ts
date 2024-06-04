@@ -23,7 +23,7 @@ export interface ChannelmanagerListChannelsWithAssociationsRequest {
      * @type {string}
      * @memberof ChannelmanagerListChannelsWithAssociationsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * The number of items to return per page. If not specified, it will returns all items.
      * @type {number}

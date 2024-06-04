@@ -23,11 +23,11 @@ export interface ChannelmanagerDeleteAssociationRequest {
      * @type {string}
      * @memberof ChannelmanagerDeleteAssociationRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerDeleteAssociationRequest
      */
-    'id'?: string;
+    'id': string;
 }

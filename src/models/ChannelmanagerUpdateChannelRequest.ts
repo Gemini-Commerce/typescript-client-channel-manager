@@ -23,13 +23,13 @@ export interface ChannelmanagerUpdateChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerUpdateChannelRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerUpdateChannelRequest
      */
-    'id'?: string;
+    'id': string;
     /**
      * 
      * @type {ChannelmanagerUpdateChannelRequestPayload}
@@ -38,8 +38,8 @@ export interface ChannelmanagerUpdateChannelRequest {
     'payload'?: ChannelmanagerUpdateChannelRequestPayload;
     /**
      * 
-     * @type {Array<string>}
+     * @type {string}
      * @memberof ChannelmanagerUpdateChannelRequest
      */
-    'payloadMask'?: Array<string>;
+    'payloadMask'?: string;
 }

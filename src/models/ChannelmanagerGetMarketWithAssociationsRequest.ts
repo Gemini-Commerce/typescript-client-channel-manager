@@ -23,11 +23,11 @@ export interface ChannelmanagerGetMarketWithAssociationsRequest {
      * @type {string}
      * @memberof ChannelmanagerGetMarketWithAssociationsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerGetMarketWithAssociationsRequest
      */
-    'id'?: string;
+    'id': string;
 }

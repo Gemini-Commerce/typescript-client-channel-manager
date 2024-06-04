@@ -18,16 +18,12 @@
  * @interface ProtobufAny
  */
 export interface ProtobufAny {
+    [key: string]: any;
+
     /**
      * 
      * @type {string}
      * @memberof ProtobufAny
      */
     '@type'?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ProtobufAny
-     */
-    'value'?: string;
 }

@@ -23,11 +23,11 @@ export interface ChannelmanagerGetChannelWithAssociationsRequest {
      * @type {string}
      * @memberof ChannelmanagerGetChannelWithAssociationsRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerGetChannelWithAssociationsRequest
      */
-    'id'?: string;
+    'id': string;
 }

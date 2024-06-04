@@ -23,13 +23,13 @@ export interface ChannelmanagerCreateMarketRequest {
      * @type {string}
      * @memberof ChannelmanagerCreateMarketRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerCreateMarketRequest
      */
-    'name'?: string;
+    'name': string;
     /**
      * 
      * @type {string}
@@ -41,5 +41,5 @@ export interface ChannelmanagerCreateMarketRequest {
      * @type {Array<ChannelmanagerCountryCode>}
      * @memberof ChannelmanagerCreateMarketRequest
      */
-    'countries'?: Array<ChannelmanagerCountryCode>;
+    'countries': Array<ChannelmanagerCountryCode>;
 }

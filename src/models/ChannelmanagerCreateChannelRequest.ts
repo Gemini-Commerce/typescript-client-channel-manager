@@ -23,13 +23,13 @@ export interface ChannelmanagerCreateChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerCreateChannelRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerCreateChannelRequest
      */
-    'code'?: string;
+    'code': string;
     /**
      * 
      * @type {string}
@@ -41,7 +41,7 @@ export interface ChannelmanagerCreateChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerCreateChannelRequest
      */
-    'name'?: string;
+    'name': string;
     /**
      * 
      * @type {ChannelmanagerLanguageCode}

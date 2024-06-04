@@ -23,11 +23,11 @@ export interface ChannelmanagerDeleteChannelRequest {
      * @type {string}
      * @memberof ChannelmanagerDeleteChannelRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerDeleteChannelRequest
      */
-    'id'?: string;
+    'id': string;
 }

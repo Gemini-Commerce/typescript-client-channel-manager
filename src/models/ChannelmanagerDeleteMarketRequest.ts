@@ -23,11 +23,11 @@ export interface ChannelmanagerDeleteMarketRequest {
      * @type {string}
      * @memberof ChannelmanagerDeleteMarketRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerDeleteMarketRequest
      */
-    'id'?: string;
+    'id': string;
 }

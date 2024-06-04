@@ -23,17 +23,17 @@ export interface ChannelmanagerCreateAssociationRequest {
      * @type {string}
      * @memberof ChannelmanagerCreateAssociationRequest
      */
-    'tenantId'?: string;
+    'tenantId': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerCreateAssociationRequest
      */
-    'channelGrn'?: string;
+    'channelGrn': string;
     /**
      * 
      * @type {string}
      * @memberof ChannelmanagerCreateAssociationRequest
      */
-    'marketGrn'?: string;
+    'marketGrn': string;
 }
