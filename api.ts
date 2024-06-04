@@ -1501,8 +1501,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1541,8 +1540,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1581,8 +1579,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1621,8 +1618,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1661,8 +1657,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1701,8 +1696,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1741,8 +1735,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1781,8 +1774,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1821,8 +1813,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1861,8 +1852,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1901,8 +1891,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1941,8 +1930,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -1981,8 +1969,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -2021,8 +2008,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -2061,8 +2047,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
@@ -2101,8 +2086,7 @@ export const ChannelManagerApiAxiosParamCreator = function (configuration?: Conf
             const localVarQueryParameter = {} as any;
 
             // authentication standardAuthorization required
-            // oauth required
-            await setOAuthToObject(localVarHeaderParameter, "standardAuthorization", [], configuration)
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
 
 
     
