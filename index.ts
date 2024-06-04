@@ -12,22 +12,7 @@
  * Do not edit the class manually.
  */
 
-/**
- * 
- * @export
- * @interface ChannelmanagerAssociationResponseAssociation
- */
-export interface ChannelmanagerAssociationResponseAssociation {
-    /**
-     * 
-     * @type {string}
-     * @memberof ChannelmanagerAssociationResponseAssociation
-     */
-    'channelGrn'?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ChannelmanagerAssociationResponseAssociation
-     */
-    'marketGrn'?: string;
-}
+
+export * from "./api";
+export * from "./configuration";
+
